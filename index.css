@@ -40,3 +40,72 @@ nav ul li a:hover{
     border-radius: 10px;
 }
 
+section{
+    padding: 32px;
+}
+main section div{
+    text-align: center;
+}
+
+section p{ 
+    padding: 0 40px;
+}
+ section div ul li{
+    text-align: center;
+    list-style: none;
+    padding: 9px 0;
+ }
+section h2{
+  text-align: center;
+}
+ form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+ }
+ section form textarea{ height:100px ;}
+
+ form label{
+    margin-bottom: 8px;
+ }
+
+ form input, form textarea{
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 5px;
+ }
+ form button{
+    padding: 8px;
+    border: none;
+    background-color: rgb(31, 54, 72) ;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 10px;
+ }
+ form button:hover{
+    background-color: rgb(105, 144, 174);
+ }
+ .button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .button-delete{
+    background-color: rgb(117, 12, 12)
+ }
+ .button-delete:hover{
+    background-color: rgb(90, 27, 27) 
+ }
+ footer{
+    background-color: rgb(31, 54, 72);
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }
